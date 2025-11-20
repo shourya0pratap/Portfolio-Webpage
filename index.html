@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -13,21 +13,36 @@
     </header>
 
     <section id="about">
+      <img src="images/profile.jpg" />
       <h2>About Me</h2>
       <p>Welcome to my portfolio</p>
     </section>
 
+    <h2 class="section-title">My Projects:</h2>
     <section id="projects">
-      <h2>My Projects:</h2>
-      <ul>
-        <li>Project 1: Calculator</li>
-        <li>Project 2: Data Encryptor</li>
-        <li>Project 3: Boolean Evaluator</li>
-      </ul>
+      <div id="wrapper">
+        <div class="project-slot">
+          <img src="/images/basic-calculator.png" />
+        </div>
+        <div class="project-slot">
+          <img src="/images/boolean-evaluator.png" />
+        </div>
+        <div class="project-slot">
+          <img src="/images/data-encryptor.png" />
+        </div>
+      </div>
     </section>
 
     <footer>
-        <p>Contact me at: 07shourya.pratap@gmail.com</p>
+      <p>Contact me at: 07shourya.pratap@gmail.com</p>
+      <section id="contacts">
+        <a href="https://github.com/shourya0pratap"
+          ><img src="/images/github.png"
+        /></a>
+        <a href="https://www.linkedin.com/in/shourya-pratap-56b7a1381/"
+          ><img src="/images/linkedin.png"
+        /></a>
+      </section>
     </footer>
   </body>
 </html>
