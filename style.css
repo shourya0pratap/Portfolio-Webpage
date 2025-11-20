@@ -154,3 +154,22 @@ footer p {
   transform: translate(-6px, -6px);
   box-shadow: 5px 5px black;
 }
+
+@media (max-width: 768px) {
+  #projects {
+    width: 90%;
+    height: auto;
+  }
+
+  #wrapper {
+    width: 400%;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+}
