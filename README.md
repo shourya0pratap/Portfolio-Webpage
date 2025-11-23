@@ -17,6 +17,8 @@ Since this is a static website, no compilation or server setup is required.
     * Alternatively, use the "Live Server" extension in VS Code.
 
 ## 📸 Screenshots
+### Command Execution 
+![](images/commands.png)
 ### Desktop View (Project Carousel)
 ![](images/desktop-preview.png)
 ### iPad View (Project Carousel)
